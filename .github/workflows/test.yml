@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: '14'
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: Run tests
         run: npm run start-and-test
